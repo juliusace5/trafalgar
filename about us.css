@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+    
+    .container {
+    width: 100%;
+    }
+  
+    header {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    padding: 3rem 1rem 0rem 0rem;
+    }
+  
+    nav {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    }
+
+    a{
+      text-decoration: none;
+      color: #7D7987;
+    }
+     
+    a:hover{
+    color: #1F1534;
+    }
+    
+    .nav h1 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    }
+  
+    .hero{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+    }
+  
+    li {
+    font-family:mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    color:#7D7987;
+  }
+  
+  li:hover {
+    cursor: pointer;
+    color: rgb(117, 49, 24);;
+  }
+.services {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+     }
+  
+  .trafalgarServices {
+    text-align: center;
+  }
+  
+  .trafalgarServices h2 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  
+  .retangleImage img{
+    height: 2px;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+  }
+  
+  .trafalgarServices p{
+    font-family: Mulish;
+    font-size: 18px;
+    color:#7D7987;
+    font-weight: 300;
+    line-height: 30px;
+    width: 825px;
+    margin-top: 1.5rem;
+    margin-left: 16.5rem;
+    }
+  
+    .cardContainer {
+    background-image: url(images/cardsback.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+  
+    .card {
+      width: 375px;
+      height: 340px;
+      border-radius: 1rem 1rem;
+      background: #FFFFFF;
+      box-shadow: 10px 40px 30px 0px #E5E9F666;
+      margin-top: 2rem;
+      padding-top: 4rem;
+      margin-bottom: 4rem;
+    }  
+  
+  .cardA {
+    width: 75%;
+    display: flex;
+    justify-items: space-between;
+    gap: 2rem;
+    margin: auto;
+    margin-bottom: -.5rem;
+  }
+  
+  .cardText {
+    width: 75%;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  
+  .card h3 {
+    width: 205px;
+    height: 56px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    }
+  
+  .card p2{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #7D7987;  
+    width:261px ;
+  }
+  
+  .backelementImage {
+    position: absolute;
+    z-index: -1;
+    right:7rem;
+    margin-top: -8.5rem;
+  }
+  
+  .cardB{
+    width: 75%;
+    display: flex;
+    justify-items: space-between;
+    gap: 2rem;
+    margin: auto; 
+    margin-top: -4.5rem;
+  }
+  
+  .cardImage{
+    width: 91.98px;
+    height: 90px;
+    left: 277px;
+    padding-left: 1.5rem;
+  }
+  
+  .cardImage img{
+    width: 80%;
+  }
+  
+  .servicesbtn button {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border: 2px solid #458FF6;
+    width: 190px;
+    height: 50px;
+    border-radius: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    margin-left: 36rem;
+    padding-top: -4rem;
+  }
+
+  .health {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    gap: 9rem;
+    margin-top: 14rem;
+  }
+  
+  .healthImage {
+    width: 650px;
+    height: 500px;
+    top: 2318px;
+    left: 135px;
+  }
+  
+  .healthImage img {
+    width: 100%; 
+  }
+  
+  .healthText {
+    width: 35%;
+    margin-right: 3rem;
+  }
+  
+  .healthText h3 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 450px;
+    height: 112px;
+    top: 2375px;
+    margin-bottom: 1rem;  
+  }
+  
+  .healthImage2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .healthText p2 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    height: 120px;
+    top: 2513px;
+    color: #7D7987;
+  }
+  
+  .healthbtn button {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border: 2px solid #458FF6;
+    width: 190px;
+    height: 50px;
+    border-radius: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }

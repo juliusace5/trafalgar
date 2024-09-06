@@ -1,0 +1,2022 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,1000&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  }
+  
+  .container {
+  width: 100%;
+  }
+
+  header {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  align-items: center;
+  padding: 3rem 1rem 3rem 0rem;
+  }
+
+  nav {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  }
+
+  a:hover{
+  color:#1F1534;
+  }
+
+  .nav h1 {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.59px;
+  color: #1F1534;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: #7D7987;
+  }
+  
+  li {
+  font-family:mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  color: #7D7987;
+}
+
+li:hover {
+  cursor: pointer;
+  color: rgb(117, 49, 24);
+}
+
+.elementImage {
+  /* width: 100%;  */
+  padding-bottom: -2rem;
+}
+
+.hero{
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: -4rem;
+  padding-bottom: 4rem;
+  }
+
+.heroText {
+  margin-top: 4rem;
+  width: 41%;
+  margin-right: 3.5rem;
+}
+
+.heroText h2 {
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 1.5rem;
+ }
+
+.heroImage {
+  width: 693px;
+  height: 598px;
+  top: 177px;
+  padding-left: 4rem;
+}
+
+  .heroImage img {
+  width: 100%;
+  margin-right: 4rem;
+ }
+
+.heroText p{
+  font-family: Mulish;
+  font-size: 16.6px;
+  font-weight: 300px;
+  line-height: 32px;
+  width: 355px;
+  height: 96px;
+  color:  #7D7987;
+  margin-bottom: 2.5rem;
+}
+
+.btn button {
+  width: 150px;
+  height: 45px;
+  top: 564px;
+  left: 190px;
+  border-radius: 2rem 2rem 2rem 2rem;
+  color: #FFFFFF;
+  background: #458FF6;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.services {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 4rem;
+   }
+
+.trafalgarServices {
+  text-align: center;
+}
+
+.trafalgarServices h2 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.retangleImage img{
+  height: 2px;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.trafalgarServices p{
+  font-family: Mulish;
+  font-size: 16px;
+  color:#7D7987;
+  font-weight: 300;
+  line-height: 30px;
+  width: 825px;
+  margin-top: 1.5rem;
+  margin-left: 16.5rem;
+  }
+
+  .cardContainer {
+  background-image: url(images/cardsback.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+  .card {
+    width: 375px;
+    height: 340px;
+    border-radius: 1rem 1rem;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 30px 0px #E5E9F666;
+    margin-top: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+  }  
+
+.cardA {
+  width: 75%;
+  display: flex;
+  justify-items: space-between;
+  gap: 2rem;
+  margin: auto;
+  margin-bottom: -.5rem;
+}
+
+.cardText {
+  width: 75%;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.card h3 {
+  width: 205px;
+  height: 56px;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+  }
+
+.card p2{
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #7D7987;  
+  width:261px ;
+}
+
+.backelementImage {
+  position: absolute;
+  z-index: -1;
+  right:7rem;
+  margin-top: -8.5rem;
+}
+
+.cardB{
+  width: 75%;
+  display: flex;
+  justify-items: space-between;
+  gap: 2rem;
+  margin: auto; 
+  margin-top: -4.5rem;
+}
+
+.cardImage{
+  width: 91.98px;
+  height: 90px;
+  left: 277px;
+  padding-left: 1.5rem;
+}
+
+.cardImage img{
+  width: 80%;
+}
+
+.servicesbtn button {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700px;
+  color: #458FF6;
+  background-color: #FFFFFF;
+  border: 2px solid #458FF6;
+  width: 190px;
+  height: 50px;
+  border-radius: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  margin-left: 36rem;
+  padding-top: -4rem;
+}
+
+.health {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  gap: 9rem;
+  margin-top: 14rem;
+}
+
+.healthImage {
+  width: 650px;
+  height: 500px;
+  top: 2318px;
+  left: 135px;
+}
+
+.healthImage img {
+  width: 100%; 
+}
+
+.healthText {
+  width: 35%;
+  margin-right: 3rem;
+}
+
+.healthText h3 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 450px;
+  height: 112px;
+  top: 2375px;
+  margin-bottom: 1rem;  
+}
+
+.healthImage2 {
+  margin-bottom: 1.5rem;
+}
+
+.healthText p2 {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  height: 120px;
+  top: 2513px;
+  color: #7D7987;
+}
+
+.healthbtn button {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700px;
+  color: #458FF6;
+  background-color: #FFFFFF;
+  border: 2px solid #458FF6;
+  width: 190px;
+  height: 50px;
+  border-radius: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.elementImage2{
+  margin-top: -6.5rem;
+}
+
+.elementImage2 img {
+  float: right;
+  padding-top: -5rem;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding-top: 7rem;
+  gap: 4rem;
+}
+
+.downloadText {
+  width: 30%;
+  margin-left: 5rem;
+}
+
+.downloadText h3 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  width: 254px;
+  height: 96px;
+  top: 3060px;
+  margin-bottom: 1.5rem;
+  }
+
+  .downloadImage {
+    margin-bottom: 1.5rem;
+    }
+  
+
+.downloadText p2 {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  text-align: left;
+  width: 420px;
+  height: 120px;
+  top: 3219px;
+  left: 280px;
+  color: #7D7987;
+}
+
+.downloadbtn button {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700px;
+  color: #458FF6;
+  background-color: #FFFFFF;
+  border: 2px solid #458FF6;
+  width: 190px;
+  height: 50px;
+  border-radius: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  }
+
+.downloadbtn button img {
+  margin-left: .5rem; 
+}
+
+.appsImage img {
+  margin-left: 3rem;
+  width: 100%;
+}
+
+.dedication{
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  width: 1120px;
+  height: 425px;
+  top: 3724px;
+  left: 242px;
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 75%; 
+  margin: auto;
+  margin-top: 15rem;
+}
+
+.customer{
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.customerImage img {
+  margin-bottom: 4rem;
+}
+
+.elementImage3 {
+  float: right;
+  margin-top: -1rem;
+  margin-right: -3rem ;
+}
+
+.customerText h3 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.founderCircle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.edwardImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.edwardText h3 {
+  font-family: Mulish;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 184px;
+  height: 48px;
+  margin-bottom: -.5rem;
+  color: #FFFFFF;
+}
+
+.edwardText p2 {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 48px;
+  width: 119px;
+  height: 48px;
+  top: 3992px;
+  color: #FFFFFFD9;
+}
+
+.commentText {
+  width: 46%;
+}
+
+.commentText p3 {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 420px;
+  height: 120px;
+  color: #FFFFFFE5;
+}
+
+.elementImage4 {
+  position: absolute;
+  z-index: -1;
+  left: 7rem;
+  margin-top: -3.5rem;
+}
+
+.navImage {
+  width: 336.43px;
+  margin-top: 2.5rem;
+  margin-left: 31rem;
+  margin-bottom: 14rem;
+}
+
+.articleContainer {
+  width: 100%;
+}
+
+.articleText {
+  text-align: center; 
+}
+
+.articleText h3 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  height: 56px;
+  margin-bottom: 1rem;
+}
+
+.rectangleImage5 {
+ margin-bottom: 4rem;
+}
+
+.maskbackImage {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  margin-top: -10rem; 
+}
+
+.maskContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.elementImage5 img{
+  position: absolute;
+  z-index: -1;
+  left: 7.5rem;
+  margin-top: -3rem; 
+}
+
+.maskCard {
+  width: 351px;
+  height: 512px;
+  border-radius: 1rem 1rem 1rem 1rem;
+  box-shadow: 10px 40px 50px 0px #E5E9F666;
+  background: #FFFFFF;
+  margin-bottom: 4rem;
+ 
+}
+
+.maskImage {
+  width: 350px;
+  height: 240px;
+  top: 4596px;
+  left: 240px;
+}
+
+.maskImage img {
+  width: 100%;
+}
+
+.maskText {
+ text-align: left;
+ width: 100%;
+ padding-left: 2rem;
+ padding-right: 3rem;
+}
+
+.maskText h3 {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  height: 64px;
+  top: 4860px;
+  margin-bottom: 1rem;
+}
+
+.maskText p2 {
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  height: 84px;
+  top: 4936px;
+  color: #7D7987;
+}
+
+.readText p3 {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  width: 266px;
+  height: 28px;
+  top: 5045px;
+  color: #4089ED;
+  margin-right: .5rem;
+  padding-top: 2rem;
+}
+
+.readText {
+  margin-top: 1.5rem;
+}
+
+.articlebtn button {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  width: 100%;
+  color: #458FF6;
+  background-color: #FFFFFF;
+  border: 1.4px solid #458FF6;
+  width: 200px;
+  height: 56px;
+  border-radius: 2rem 2rem 2rem 2rem;
+  margin-left: 36.5rem;
+  margin-bottom: 8rem;
+}
+
+.footer {
+  display: flex;
+}
+
+.footContainer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  padding-top: 7rem;
+  height: 445px;
+  top: 5438px;
+  width: 1600px;
+  margin-top: 4.5rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+
+.footLogo {
+  display: flex;
+  width: 35%;
+  margin-top: -4rem;
+  padding-left: 3rem;
+}
+
+.logo2Image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  margin-top: -6rem;
+}
+
+.logo2Image h1 {
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.63px;
+  text-align: center;
+  color: #5B9BF3;
+  width: 41px;
+  height: 41px;
+  padding-top: .4rem;
+  background: #FFFFFF;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.logo2Image h2 {
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.12px;
+  width: 107px;
+  height: 30px;
+  top: 5562px;
+  color: #FFFFFF;
+}
+
+.footList {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  gap: 4rem;
+  margin-right: 13rem;
+  padding-right: 4rem;
+}
+
+.list h3 {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 92px;
+  height: 65px;
+  top: 5547px;
+  color: #FFFFFF;
+}
+
+.list p {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  width: 391px;
+  height: 40px;
+  color: #FFFFFF;
+}
+
+.partB {
+  width: 85%;
+  margin: auto;
+  margin-top: -9.5rem;
+  margin-right: 4rem;
+}
+
+.textSide {
+  width: 25%;
+  }
+
+.flText p2 {
+  font-family: Mulish;
+  font-size: 16.2px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 391px;
+  height: 84px;
+  color: #FFFFFF;
+}
+
+.copyright p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 393px;
+  height: 28px;
+  top: 5729px;
+  color: #FFFFFF;
+  margin-top: 2rem;
+} 
+
+.element6Image img  {
+  position: absolute;
+  z-index: -1;
+  right: 3rem;
+}
+
+.element7Image{
+  margin-top: 1rem;
+}
+ @media screen and (max-width: 1024px){
+  header {
+   padding: 3rem 1rem 3rem 0rem;
+    }
+      li {
+      font-size: 14px;
+      }
+      .heroText {
+        margin-top: 3rem;
+        width: 55%;
+      }
+      .heroText h2 {
+        font-size: 30px;
+        margin-bottom: .5rem;
+       }
+       .heroText p{
+        font-size: 12.2px;
+        width:300px;
+        margin-bottom: 1rem;
+        padding-right: 2.5rem;
+      }
+        .btn button {
+          width: 130px;
+          height: 35px;
+          border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+          font-size: 14px;
+        }
+        .heroImage img {
+          width: 100%;
+         }
+        .trafalgarServices p{
+          font-size: 16px;
+          margin-left: 6rem;
+          }
+          .card {
+            height: 330px;
+            padding-top: 3.5rem;
+          }
+          .cardText {
+            width: 100%;
+            padding-left: 2rem;
+            padding-right: 3rem;
+          }
+          .card h3 {
+            font-size: 18px;
+            }
+            .card p2{
+              font-size: 10px;
+            }
+            .services {
+              margin-top: -4rem;
+               }
+            .servicesbtn button {
+              font-size: 14px;
+              width: 150px;
+              height: 45px;
+              border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+              margin-left: 27rem
+            }
+            .backelementImage {
+              right: 4.5rem;
+              margin-top: -8rem;
+            }
+            .health {
+              width: 85%;
+              gap: 8rem;
+              margin-top: 13rem;
+               }
+            .healthText {
+              width: 50%;
+            }
+            .healthText h3 {
+              font-size: 24px;
+              width: 300px;
+              margin-right: 15rem;
+              margin-bottom: -1rem;
+              line-height: 41px;
+            }
+            .healthText p2 {
+              font-size: 12.2px;
+            }
+            .healthbtn button {
+              font-size: 14px;
+              width: 150px;
+              height: 45px;
+              border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+              margin-top: 1rem;
+            }
+            .healthImage2 {
+              margin-bottom: 1rem;
+            }
+            .download {
+              width: 100%;
+              padding-top: 8rem;
+            }
+            .downloadText {
+              width: 30%;
+            }
+            .downloadText h3 {
+              font-size: 30px;
+              margin-bottom: 1rem;
+              }
+            .downloadText p2 {
+              font-size: 15px;
+            }
+            .downloadbtn button {
+              font-size: 14px;
+              width: 150px;
+              height: 40px;
+              border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+              margin-top: 2rem;
+              }
+              .downloadbtn button img {
+              margin-left: .5rem; 
+            }
+              .customerImage img {
+                margin-bottom: 3rem;
+              }
+              .customerText h3 {
+                font-size: 25px;
+                margin-bottom: 1.5rem;
+              }
+              .founderCircle{
+                width: 85%;
+                gap: 3rem;
+              }
+              .edwardImage {
+                gap: 1.5rem;
+              }
+              .edwardText h3 {
+                font-size: 18px;
+                margin-bottom: -1rem;
+              }
+              .edwardText p2 {
+                font-size: 15px;
+              }
+              .commentText {
+                width: 45%;
+              }
+              .commentText p3 {
+                font-size: 13px;
+              }
+              .elementImage4 {
+                left: 5rem;
+                margin-top: -2rem;
+              }
+              .navImage {
+                margin-left: 21rem;
+                margin-bottom: 13rem;
+              }
+              .articleText h3 {
+                font-size: 30px;
+              }
+              .rectangleImage5 {
+               margin-bottom: 4rem;
+              }
+              .maskbackImage {
+                margin-top: -8rem; 
+              }
+              .maskContainer {
+                gap: 1.5rem;
+              }
+              .elementImage5 img{
+                left: 4.5rem;
+                margin-top: -3rem; 
+              }
+              .maskImage img {
+                width: 90%;
+              }
+              .maskText {
+                 width: 100%;
+              }
+              .maskText h3 {
+                font-size: 13px;
+              }
+               .maskText p2 {
+                font-size: 11px;
+              }
+              .readText {
+                margin-top: 1.5rem;
+              }
+              .articlebtn button {
+                font-size: 16px;
+                width: 180px;
+                height: 56px;
+                border-radius: 2rem 2rem 2rem 2rem;
+                margin-left: 27rem;
+                margin-bottom: 7rem;
+              }
+              .foot {
+                width: 85%;
+              }
+              .footLogo {
+                width: 30%;
+                margin-top: -4rem;
+              }
+              .logo2Image h1 {
+                font-size: 22px;
+              }
+              .logo2Image h2 {
+              font-size: 18px;
+              }
+              .footList {
+                width: 45%;
+                gap: 2rem;
+                margin-right: 25rem;
+                padding-right: 9rem;
+              }
+              .list h3 {
+                font-size: 21px;
+              }
+              .list p {
+                font-size: 16px;
+              }
+              .textSide {
+                width: 20%;
+              }
+              .flText p2 {
+                font-size: 13px;
+              }
+              .copyright p {
+                font-size: 13px;
+              } 
+             }
+             
+             @media screen and (max-width: 900px){
+              nav{
+                display: none;
+            }
+            .hero{
+            width: 86%;
+              }
+            .heroText {
+            margin-top: 4rem;
+            margin-left: 2rem;
+          }
+          .heroText h2 {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 35px;
+            margin-bottom: 1rem;
+           }
+          .heroImage img {
+           margin-right: -4rem;
+           }
+          .heroText p{
+            font-size: 11.8px;
+            margin-bottom: 1.5rem;
+            padding-right: 3rem;
+          }
+          .btn button {
+            width: 140px;
+            height: 45px;
+            border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+            font-size: 14px;
+          }
+          .services {
+            width: 100%;
+            margin: auto;
+            margin-top: -6rem;
+          }
+          .trafalgarServices h2 {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 50px;
+          }
+          .trafalgarServices p{
+           font-size: 13px;
+            width: 670px;
+            margin-left: 7rem;
+            }
+            .card {
+              width: 900px;
+            }
+            .cardText {
+              width: 120%;
+            }
+            .card h3 {
+              font-size: 16px;
+             }
+            .card p2{
+             font-size: 11px;
+             width: 120%;
+            }
+            .backelementImage {
+             right:4rem;
+              margin-top: -8rem;
+            }
+            .servicesbtn button {
+              font-size: 14px;
+              font-weight: 700px;
+              width: 150px;
+              height: 50px;
+              margin-left: 23rem;
+            }
+            .healthText h3 {
+              font-size: 20px;
+              font-weight: 750;
+              line-height: 40px;
+              width: 205px;
+              margin-bottom: -1rem;  
+            }
+            .healthImage2 {
+              margin-bottom: 1rem;
+            }
+            .healthText p2 {
+              font-size: 10px;
+              font-weight: 300;
+              line-height: 25px;
+            }
+            .healthbtn button {
+              font-size: 14px;
+              font-weight: 700px;
+              width: 150px;
+              height: 40px;
+              border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+              margin-top: 1.5rem;
+            }
+            .elementImage2{
+             margin-top: -8rem;
+            }
+            .downloadText h3 {
+             font-size: 30px;
+             margin-bottom: 1rem;
+              }
+            .downloadImage {
+             margin-bottom: 1rem;
+            }
+            .downloadText p2 {
+             font-size: 12.5px;
+            }
+            .downloadbtn button {
+             font-size: 16px;
+             font-weight: 700px;
+             width: 150px;
+             height: 40px;
+             border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+             margin-top: 1.5rem;
+              }
+            .edwardImage {
+             gap: 1.5rem;
+              }
+            .edwardText h3 {
+            font-size: 17px;
+            }
+            .commentText {
+            width: 50%;
+            }
+            .commentText p3 {
+            font-size: 11.5px;
+           }
+           .elementImage4 {
+             left: 4rem;
+             margin-top: -2rem;
+          }
+          .navImage {
+            width: 340px;
+            margin-top: 2.5rem;
+            margin-left: 17.5rem;
+            margin-bottom: 14rem;
+          }
+          .elementImage5 img{
+            left: 4rem;
+            margin-top: -3rem; 
+          }
+          .maskContainer {
+           margin-bottom: 1rem;
+          }
+          .maskText {
+            width: 120%;
+          }
+           .maskText h3 {
+            font-size: 14px;
+            font-weight: 600;
+          }
+          .maskText p2 {
+            font-size: 10.5px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          .articlebtn button {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 40px;
+            width: 155px;
+            height: 46px;
+            margin-left: 24rem;
+          }
+          .footLogo {
+            margin-left: -2rem;
+            width: 35%;
+          }
+          .footList {
+            gap: 2rem;
+            margin-right: 28rem;
+            padding-left: rem;
+          }
+          .list h3 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 60px;
+            width: 92px;
+            height: 65px;
+          }
+          .list p {
+            font-size: 14px;
+            font-weight: 300;
+            width: 391px;
+            height: 40px;
+          }
+          .flText p2 {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 28px;
+            height: 84px;
+            color: #FFFFFF;
+          }
+          .copyright p {
+            font-size: 12px;
+            margin-top: 1.5rem;
+            } 
+            .partB {
+            margin-left: 9rem;
+            }
+
+             }
+             @media screen and (max-width: 768px){
+                header {
+                width: 85%;
+                }
+                .hero{
+                width: 90%;
+                  }
+                .elementImage {
+                 display: none;
+                }
+                .heroText {
+                margin-top: 9rem;
+                margin-left: 2rem;
+              }
+              .heroText h2 {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 35px;
+                margin-bottom: 1rem;
+               }
+              .heroImage img {
+                margin-top: 6rem;
+               }
+              .heroText p{
+                font-size: 12px;
+                margin-bottom: -.5rem;
+                padding-right: 4rem;
+                line-height: 22px;
+                }
+              .btn button {
+                width: 120px;
+                height: 40px;
+                border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+                font-size: 14px;
+              }
+              .trafalgarServices h2 {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 50px;
+              }
+              .trafalgarServices p{
+                font-size: 14px;
+                }
+                .servicesbtn button {
+                  font-size: 14px;
+                  width: 140px;
+                  height: 40px;
+                  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+                  margin-left: 19rem
+                }
+                .health {
+                  width: 90%;
+                  gap: 4rem;
+                  margin-top: 10rem;
+                }
+                .healthText h3 {
+                  font-size: 20px;
+                  line-height: 30px;
+                 margin-bottom: -2.5rem;  
+                }
+                .healthText p2 {
+                  font-size: 12px;
+                  font-weight: 300;
+                  line-height: 20px;
+                }
+                .elementImage2{
+                  margin-top: -12rem;
+                }
+                .elementImage2 img {
+                  padding-top: -5rem;
+                }
+                .download {
+                  width: 100%;
+                  padding-top: -12rem;
+                  gap: .5rem ;
+                }
+                .downloadText {
+                  width: 40%;
+                }
+                .downloadText h3 {
+                 font-size: 25px;
+                }
+                .downloadImage {
+                  margin-bottom: 1rem;
+                }
+                .downloadText p2 {
+                  font-size: 11.5px;
+                  font-weight: 300px;
+                }
+                .downloadbtn button {
+                  font-family: Mulish;
+                  font-size: 14px;
+                  width: 150px;
+                  height: 40px;
+                  border-radius: 2rem 2rem 2rem 2rem;
+                  margin-top: 2rem;
+                }
+                
+                .downloadbtn button img {
+                  margin-left: .5rem; 
+                }
+                
+                .appsImage img {
+                 margin-left: 3rem;
+                 width: 50%;
+              }
+              .dedication{
+                width: 85%; 
+                margin-top: 10rem;
+              }
+              .commentText {
+                width: 50%;
+              }
+              
+              .commentText p3 {
+                font-size: 11px;
+              }
+              
+              .elementImage4 {
+               display: none;
+              }
+              .navImage {
+               margin-top: 2rem;
+               margin-left: 14rem;
+               margin-bottom: 10rem;
+              }
+              .elementImage5 img{
+                left: 3rem;
+              }
+              .maskText h3 {
+                font-size: 11px;
+                font-weight: 500px;
+                line-height: 27px;
+              }
+              .articlebtn button {
+                margin-left: 19.5rem;
+                margin-bottom: 7rem;
+              }
+              .foot {
+                width: 100%;
+                gap: 1rem;
+              }
+              .element7Image{
+               display: none;
+              }
+              .partB {
+                width: 95%;
+                margin: auto;
+                margin-top: -9.5rem;
+                margin-right: 4rem;
+              }
+              .footList {
+                width: 45%;
+                margin-right: 45rem;
+                padding-right: -2rem;
+              }
+              .flText p2 {
+                font-size: 14.5px;
+              }
+             }
+
+             @media screen and (max-width: 720px){
+              .hero{
+                width: 100%;
+                margin-right: 1rem;
+              }
+              header {
+                width: 90%;
+                }
+              .heroText h2 {
+                font-size: 25px;
+                margin-bottom: 1rem;
+                 }
+              .heroText p{
+                font-size: 13px;
+                width:300px;
+                padding-right: 4rem;
+                }
+                .trafalgarServices p{
+                  font-size: 13px;
+                  margin-left: 1.5rem;
+                  }
+                .cardA {
+                  width: 90%;
+                  gap: 1rem;
+                  margin: auto;
+                  margin-bottom: -.5rem;
+                }
+                .cardText {
+                  width: 100%;
+                  text-align: left;
+                }
+                .card h3 {
+                 font-size: 18px;
+                 line-height: 50px;
+                  }
+                .card p2{
+                 font-size: 10px;
+                 font-weight: 300;
+                 line-height: 20px;
+                 width:400px ;
+                }
+                .backelementImage {
+                  display: none;
+                }
+                .cardB{
+                  width: 90%;
+                  gap: 1rem;
+                  margin-top: -4.5rem;
+                }
+                .servicesbtn button {
+                  margin-left: 18rem;
+                 }
+                 .health {
+                  width: 90%;
+                 }
+                 .healthText h3 {
+                  font-size: 17px;  
+                }
+                 .healthText p2 {
+                  font-size: 10px;
+                }
+                .downloadText p2 {
+                  font-size: 11px;
+                  font-weight: 300px;
+                }
+                .dedication{
+                  width: 90%;
+                  height: 400px; 
+                }
+                .edwardText h3 {
+                  font-size: 16px;
+                  }
+                .commentText {
+                  width: 56%;
+                }
+                .commentText p3 {
+                  font-size: 11.5px;
+                }
+                .navImage {
+                  margin-top: 1.5rem;
+                  margin-left: 11rem;
+                 }
+                 .articleText h3 {
+                  font-size: 30px;
+                  margin-bottom: .5rem;
+                }
+                .maskbackImage {
+                  margin-top: -8rem; 
+                }
+               .maskContainer {
+                  gap: 1rem;
+                  width: 90%;
+                  margin-bottom: 1rem;
+                }
+                .elementImage5 img{
+                  display: none;
+                }
+                .maskImage img {
+                  width: 90%;
+                }
+                .maskText {
+                 text-align: left;
+                 width: 120%;
+                 padding-right:3rem;
+                 padding-left: 2rem;
+                 }
+                .maskText h3 {
+                  font-size: 13px;
+                  font-weight: 500;
+                  line-height: 27px;
+                  height: 60px;
+                  margin-bottom: .5rem;
+                }
+                .maskText p2 {
+                  font-family: Mulish;
+                  font-size: 12px;
+                  font-weight: 300;
+                  line-height: 28px;
+                  height: 84px;
+                  top: 4936px;
+                  color: #7D7987;
+                }
+                .readText p3 {
+                  padding-top: 1.5rem;
+                }
+                .readText {
+                  margin-top: 1.5rem;
+                }
+                .articlebtn button {
+                 margin-left: 18rem;
+                 margin-bottom: 8rem;
+                }
+                .textSide {
+                 width: 18%;
+                }
+                .footList {
+                 margin-right: 50rem;
+                }
+                .flText p2 {
+                  font-size: 13px;
+                  font-weight: 300;
+                  line-height: 28px;
+                  height: 84px;
+                  color: #FFFFFF;
+                }
+                .copyright p {
+                  font-size: 12px;
+                  margin-top: 1.5rem;
+                  } 
+             }
+             @media screen and (max-width: 580px){
+              header {
+                margin-bottom: 2rem;
+                }
+              .hero{
+                display: block;
+                width: 90%;
+                }
+              .heroText {
+                 margin-top: 4rem;
+                 width: 100%;
+              
+                }
+                .heroText h2 {
+                 font-size: 55px;
+                 font-weight: 600;
+                 padding-bottom: 1.5rem;
+                 line-height: 60px;
+                 }
+                .heroImage img {
+                  width: 70%;
+                  margin-top: 1rem;
+                 }
+                .heroText p{
+                  font-size: 21.5px;
+                  font-weight: 300px;
+                  line-height: 32px;
+                  width: 100%;
+                  margin-bottom: 3rem;
+                  }
+                  .btn button {
+                    margin-top: -.5rempx;
+                   }
+                .services {
+                  margin-top: -8rem;
+                  margin-bottom: 4rem;
+                   }
+                .trafalgarServices h2 {
+                  width: 100%;
+                  font-size: 30px;
+                  font-weight: 600;
+                  line-height: 56px;
+                }
+                .retangleImage img{
+                  height: 2px;
+                  margin-top: 1rem;
+                  border-radius: 5px;
+                }
+                .trafalgarServices p{
+                 font-size: 14px;
+                 width: 90%;
+                 }
+                .card {
+                  width: 375px;
+                  height: 340px;
+                  margin-top: 2rem;
+                  padding-top: 2rem;
+                  margin-bottom: 2rem;
+                  }  
+                .cardA {
+                  width: 50%;
+                  display: block;
+                  margin: auto;
+                  margin-bottom: -.5rem;
+                }
+                .cardText {
+                  width: 75%;
+                  text-align: left;
+                  padding-left: 2rem;
+                }
+                .card h3 {
+                  font-size: 24px;
+                  }
+                .card p2{
+                  font-size: 13px;
+                  font-weight: 300;
+                  line-height: 28px; 
+                  width:261px ;
+                }
+               .cardB{
+                  width: 50%;
+                  display: block;
+                  }
+               .cardImage img{
+                  width: 90%;
+                }
+                .servicesbtn button {
+                  font-size: 16px;
+                  font-weight: 700px;
+                  border: 2px solid #458FF6;
+                  width: 150px;
+                  height: 40px;
+                  border-radius: 2rem 2rem 2rem 2rem;
+                  margin-left: 13rem;
+                  margin-top: 0rem;
+                }
+                .health {
+                  display: block;
+                  width: 90%;
+                  margin: auto;
+                  gap: 9rem;
+                  margin-top: 6rem;
+                }
+                .healthImage img {
+                  width: 70%;
+                  margin-bottom: 0rem; 
+                }
+                .healthText {
+                  width: 90%;
+                  margin-top: -8rem;;
+                }
+                .healthText h3 {
+                  font-size: 36px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  width: 450px;
+                  margin-bottom: 1rem;  
+                }
+                .healthImage2 {
+                  margin-bottom: 1.5rem;
+                }
+                .healthText p2 {
+                  font-size: 21px;
+                  font-weight: 300;
+                  line-height: 30px;
+                  height: 120px;
+                  top: 2513px;
+                  color: #7D7987;
+                }
+                .healthbtn button {
+                  font-size: 16px;
+                  font-weight: 700px;
+                  border: 2px solid #458FF6;
+                  width: 160px;
+                  height: 45px;
+                  border-radius: 2rem 2rem 2rem 2rem;
+                  margin-top: 2rem;
+                }
+                .elementImage2{
+                  margin-top: 0rem;
+                }
+                .download {
+                  display: block;
+                  width: 90%;
+                  margin: auto;
+                  padding-top: 7rem;
+                }
+                .downloadText {
+                  width: 90%;
+                  margin-left: 0rem;
+                }
+                .downloadText h3 {
+                  font-size: 36px;
+                  font-weight: 700;
+                }
+                .downloadImage {
+                  margin-bottom: 1.5rem;
+                }
+                .downloadText p2 {
+                  font-size: 23px;
+                }
+                .downloadbtn button {
+                  font-size: 16px;
+                  width: 150px;
+                  height: 45px;
+                  margin-bottom: 3rem;
+                }
+                .dedication{
+                  margin-top: 9rem;
+                }
+                .customer{
+                  text-align: center;
+                  margin-left: 0rem;  
+                }
+                .customerImage img {
+                  margin-bottom: .5rem;
+                }
+                .elementImage3 {
+                  display: none;
+                }
+                .customerText h3 {
+                  font-size: 25px;
+                  margin-top: 2rem;
+                  margin-bottom: 1rem;
+                }
+                .founderCircle{
+                  display: block;
+                  justify-content: space-between;
+                  width: 90%;
+                  margin: auto;
+                }
+                .edwardImage {
+                  display: flex;
+                  width: 70%;
+                  gap: -6rem;
+                  margin-bottom: 1rem;
+                }
+               .edwardText h3 {
+                  font-size: 20px;
+                  margin-bottom: -1rem;
+                }
+               .edwardText p2 {
+                  font-size: 16px;
+                 }
+               .commentText {
+                  width: 90%;
+                }
+               .commentText p3 {
+                 font-size: 20px;
+                }
+               .navImage {
+                 margin-top: 1rem;
+                  margin-left: 10rem;
+                  margin-bottom: 6rem;
+                }
+                .navImage img {
+                  width: 70%;
+                }
+                .articleContainer {
+                  width: 100%;
+                }
+                .articleText h3 {
+                  margin-bottom: .5rem;
+                }
+                .rectangleImage5 {
+                 margin-bottom: 2rem;
+                }
+                .maskbackImage {
+                  margin-top: -9rem; 
+                }
+                .maskContainer {
+                  display: block;
+                  width: 80%;
+                  margin: auto;
+                  margin-bottom: 1.5rem;
+                }
+                .maskCard {
+                  margin-bottom: 2rem;
+                 }
+                .maskImage img {
+                  width: 90%;
+                }
+                .maskText {
+                 text-align: left;
+                 width: 100%;
+                 padding-left: 2rem;
+                 padding-right: 3rem;
+                }
+                .maskText h3 {
+                  font-size: 21px;
+                  font-weight: 700;
+                  margin-bottom: 1rem;
+                }
+                .maskText p2 {
+                  font-size: 16px;
+                  font-weight: 300;
+                  }
+                .readText {
+                  margin-top: 2rem;
+                }
+                .articlebtn button {
+                  font-size: 16px;
+                  font-weight: 700;
+                  width: 160px;
+                  height: 45px;
+                  margin-left: 4rem;
+                  margin-bottom: 8rem;
+                }
+                .element6Image img  {
+                  right: 2rem;
+                }
+                .footContainer {
+                  padding-top: 2rem;
+                  height: 900px;
+                }
+                .footer {
+                  display: block;
+                  margin: auto;
+               }
+               .foot {
+                 display: block;
+                 width: 100%;
+                padding-left: 1rem;
+               }
+               .footLogo {
+                 display: flex;
+                 width: 90%;
+                 text-align: left;
+                }
+               .logo2Image {
+                 margin-top: 4rem;
+               }
+               .logo2Image h1 {
+                 font-size: 21px;
+                 padding-top: .4rem;
+                }
+               .logo2Image h2 {
+                 font-size: 16px;
+               }
+              .footList {
+                 display: block;
+                 width: 100%;
+                }
+               .list h3 {
+                 font-size: 21;
+               }
+               .list p {
+                font-size: 16px;
+               }
+               .partB {
+                 width: 100%;
+                 margin-top: .5rem;
+                 padding-left: 1rem;
+                 }
+               .textSide {
+                 width: 22%;
+                 }
+               .flText p2 {
+                 font-size: 16.3px;
+                 font-weight: 400;
+                 padding-left: -2rem
+               }
+               .copyright p {
+                 font-size: 11px;
+                 padding-left: 7rem;
+               } 
+              }
+             @media screen and (max-width: 375px){
+              .hero{
+                width: 100%;
+                }
+              .heroText h2 {
+                font-size: 40px;
+                font-weight: 500;
+                padding-bottom: 1rem;
+                padding-right: 2rem;
+                }
+               .heroImage img {
+                 width: 45%;
+                 margin-top: .5rem;
+                }
+               .heroText p{
+                 font-size: 14.6px;
+                 font-weight: 500px;
+                 margin-bottom: 2.5rem;
+                 line-height: 32px;
+               }
+               .services {
+                margin-top: -20rem;
+                 }
+              .trafalgarServices p{
+               font-size: 14px;
+               width: 90%;
+               }
+               .card {
+                width: 120%;
+                margin-top: .5rem;
+                padding-top: 2rem;
+                }  
+              .cardText {
+                width: 100%;
+                padding-left: 1.5rem;
+              }
+              .card h3 {
+                font-size: 18px;
+                }
+              .card p2{
+                font-size: 10px;
+                font-weight: 300;
+                line-height: 28px; 
+                width:261px ;
+              }
+              .cardImage img{
+                width: 90%;
+              }
+              .servicesbtn button {
+                font-size: 16px;
+                width: 150px;
+                height: 40px;
+                margin-left: 7rem;
+              }
+              .health {
+               margin-top: 6rem;
+              }
+              .healthImage img {
+                width: 50%;
+              }
+              .healthText {
+                width: 100%;
+                margin-top: -15rem;
+              }
+              .healthText h3 {
+                font-size: 34.6px;
+                line-height: 50px;
+                margin-bottom: 0rem;  
+              }
+              .healthImage2 {
+                margin-bottom: 1rem;
+              }
+              .healthText p2 {
+                font-size: 15.5px;
+              }
+              .download {
+                padding-top: 3rem;
+              }
+              .downloadText {
+                width: 90%;
+              }
+              .downloadText h3 {
+                margin-bottom: 1rem;
+              }
+              .downloadImage {
+                margin-bottom: 2rem;
+              }
+              .downloadText p2 {
+                font-size: 16px;
+              }
+              .downloadbtn button {
+                font-size: 16px;
+                font-weight: 700px;
+                border: 2px solid #458FF6;
+                width: 140px;
+                height: 40px;
+                border-radius: 2rem 2rem 2rem 2rem;
+                margin-top: 2rem;
+                margin-bottom: 3rem;
+              }
+             .customerImage img {
+                margin-bottom: .5rem;
+              }
+              .customerText h3 {
+                font-size: 20px;
+                margin-top: 1rem;
+                margin-bottom: .5rem;
+              }
+              .edwardImage {
+                width: 80%;
+                gap: 1rem;
+                margin-bottom: 1rem;
+              }
+             .edwardText h3 {
+                font-size: 16px;
+                margin-bottom: -1rem;
+              }
+             .edwardText p2 {
+                font-size: 16px;
+               }
+             .commentText {
+                width: 90%;
+              }
+             .commentText p3 {
+               font-size: 13px;
+              }
+             .navImage {
+               margin-top: 1rem;
+                margin-left: 6rem;
+                margin-bottom: 4rem;
+              }
+              .navImage img {
+                width: 50%;
+              }
+              .articleContainer {
+                width: 100%;
+              }
+              .articleText h3 {
+                font-size: 20px;
+                margin-bottom: .5rem;
+              }
+              .rectangleImage5 {
+               margin-bottom: 2rem;
+              }
+              .maskContainer {
+                width: 80%;
+                margin-bottom: 1.5rem;
+              }
+              .maskCard {
+                margin-bottom: 2rem;
+               }
+              .maskText {
+               text-align: left;
+               width: 100%;
+               padding-left: 2rem;
+               padding-right: 3rem;
+              }
+              .maskText h3 {
+                font-size: 18px;
+              }
+              .maskText p2 {
+                font-size: 16px;
+                }
+              .readText {
+                margin-top: 2rem;
+              }
+              .articlebtn button {
+                margin-left: 3rem;
+                margin-bottom: 7rem;
+              }
+              .footContainer {
+                width: 100%;
+              }
+             .footLogo {
+               text-align: left;
+              }
+             .logo2Image {
+               margin-top: 4rem;
+             }
+             .logo2Image h1 {
+               font-size: 21px;
+               padding-top: .4rem;
+              }
+             .logo2Image h2 {
+               font-size: 18px;
+             }
+              .footList {
+               width: 90%;
+               margin-bottom: 3rem;
+              }
+             .partB {
+               width: 90%;
+               margin-top: -1.5rem;
+               }
+             .textSide {
+               width: 100%;
+               }
+             .flText p2 {
+               font-size: 15px;
+             }
+             .copyright p {
+              font-size: 12px;
+              margin-left: -4rem;
+              } 
+              
+             }
+            
+            
+    

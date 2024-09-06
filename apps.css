@@ -1,0 +1,131 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+.container {
+width: 100%;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+width: 75%;
+margin: auto;
+align-items: center;
+padding: 3rem 1rem 0rem 0rem;
+}
+
+nav {
+display: flex;
+list-style: none;
+gap: 3rem;
+}
+
+a{
+  text-decoration: none;
+  color: #7D7987;
+}
+
+a:hover{
+color: #1F1534;
+}
+
+.nav h1 {
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+line-height: 22.59px;
+}
+
+.hero{
+display: flex;
+width: 75%;
+margin: auto;
+justify-content: space-between;
+margin-top: -4rem;
+padding-bottom: 4rem;
+}
+
+li {
+font-family:mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.59px;
+color:#7D7987;
+}
+
+li:hover {
+cursor: pointer;
+color: rgb(117, 49, 24);
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding-top: 7rem;
+    gap: 4rem;
+  }
+  
+  .downloadText {
+    width: 30%;
+    margin-left: 5rem;
+  }
+  
+  .downloadText h3 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    width: 254px;
+    height: 96px;
+    top: 3060px;
+    margin-bottom: 1.5rem;
+    }
+  
+    .downloadImage {
+      margin-bottom: 1.5rem;
+      }
+    
+  
+  .downloadText p2 {
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 300px;
+    line-height: 30px;
+    text-align: left;
+    width: 420px;
+    height: 120px;
+    top: 3219px;
+    left: 280px;
+    color: #7D7987;
+  }
+  
+  .downloadbtn button {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border: 2px solid #458FF6;
+    width: 190px;
+    height: 50px;
+    border-radius: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    }
+  
+  .downloadbtn button img {
+    margin-left: .5rem; 
+  }
+  
+  .appsImage img {
+    margin-left: 3rem;
+    width: 100%;
+  }

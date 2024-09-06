@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+    
+    .container {
+    width: 100%;
+    }
+  
+    header {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    padding: 3rem 1rem 0rem 0rem;
+    }
+    
+    nav {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    }
+
+    a{
+      text-decoration: none;
+      color: #7D7987;
+    }
+
+    a:hover{
+    color:#1F1534;
+    }
+      
+
+    .nav h1 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    }
+  
+    .hero{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+    }
+  
+    li {
+    font-family:mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    color:#7D7987;
+  }
+  
+  li:hover {
+    cursor: pointer;
+    color: rgb(117, 49, 24);
+  }
+
+  .dedication{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    width: 1120px;
+    height: 425px;
+    top: 3724px;
+    left: 242px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: 75%; 
+    margin: auto;
+    margin-top: 15rem;
+  }
+  
+  .customer{
+    text-align: center;
+    margin-left: 6rem;
+  }
+  
+  .customerImage img {
+    margin-bottom: 4rem;
+  }
+  
+  .elementImage3 {
+    float: right;
+    margin-top: -1rem;
+    margin-right: -3rem ;
+  }
+  
+  .customerText h3 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .founderCircle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .edwardImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .edwardText h3 {
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 184px;
+    height: 48px;
+    margin-bottom: -.5rem;
+    color: #FFFFFF;
+  }
+  
+  .edwardText p2 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 119px;
+    height: 48px;
+    top: 3992px;
+    color: #FFFFFFD9;
+  }
+  
+  .commentText {
+    width: 46%;
+  }
+  
+  .commentText p3 {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 420px;
+    height: 120px;
+    color: #FFFFFFE5;
+  }
+  
+  .elementImage4 {
+    position: absolute;
+    z-index: -1;
+    left: 7rem;
+    margin-top: -3.5rem;
+  }
+  
+  .navImage {
+    width: 336.43px;
+    margin-top: 2.5rem;
+    margin-left: 31rem;
+    margin-bottom: 14rem;
+  }
